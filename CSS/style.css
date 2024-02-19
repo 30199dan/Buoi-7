@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	width: 100%; height: 60px; background-color: lightgray; border-bottom: solid 2px #9C0002; 
+}
+.banner{
+	width: 100%; min-height: 400px; 
+}
+aside{
+	width: 30%; min-height: 500px; padding: 15px /*tranh bi sat vien tren*/
+}
+main{
+	width: 70%; min-height: 500px; padding: 15px /*tranh bi sat vien tren*/
+}
+footer{
+	width: 100%; min-height: 200px; background-color: lightgray
+}
+.bg-xanh{
+	min-height: 200px; background-color: #1AD7FF; text-align: center /*phai xoa width: 100%*/
+}
+.menu{
+	padding-top: 20px /*tranh bi sat vien tren*/
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+.menu ul li a{
+	padding: 10px 20px; text-decoration: none; color: #555555; font-size: 17px; font-weight: 600; border-radius: 16px
+}
+.menu ul li a:hover{
+	background-color: #9C0002; color: white
+}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*kich thuoc mui ten*/color: #fff /*mau mui ten khi chua hover*/
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#9C0002;/*mau mui ten khi hover*/
+      text-decoration: none; }
+.text-do{
+	color: #9C0002
+}
+aside ul{
+	margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column
+}
+aside ul li a{
+	padding: 10px; display: block; text-decoration: none; color: #424242 /*block de tao khoi*/
+}
+aside ul li a:hover {
+	background-color: #9C0002; color: white
+}
+aside ul li {
+	border-bottom: 1px solid #9C0002
+}
+footer a{
+	text-decoration: none; color: #6A6A6A
+}
+footer a:hover{
+	color: white /*hover cho ABC Fashion & font awsome*/
+}
+footer ul{
+	margin: 0; padding: 0; list-style: none
+}
+footer ul li a{
+	padding: 6px; display: flex; flex-direction: column
+}
+footer ul li a:hover{
+	color: white /*hover cho Userfull link*/
+}
